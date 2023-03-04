@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+ :root{
+    --main-bg-color:  #2874f0;
+ }
+
+
+ header{
+    font-family: 'Lato', sans-serif;
+    background-color:  var(--main-bg-color);
+ }
+
+ nav{
+    display: flex;
+    
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+
+ .logo img{
+    width: 88px;
+    padding: 0 25px;
+ }
+
+ nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ 
+ nav ul li{
+    padding: 0 23px;
+    list-style: none;
+ }
+
+ nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+ }
+
+ nav>ul>li>a:hover{
+    padding: 10px 0;
+    background-color: blue;   
+      font-weight: bold;
+ }
+
+ .container{
+    min-height: calc(100vh - 58px - 12vh);
+ }
+
+ .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+
+ .search input{
+    padding:0 12px;
+    border-radius: 5px;
+    width: 30vw;
+    height: 32px;
+    margin: 0 16px 0 56px;
+ }
+  
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.slider{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80vw;
+    margin:12px auto;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+     margin: 0 15px;
+}
+
+.cards{
+    display: flex;
+    overflow: scroll;
+}
+.card{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    max-width: 91vw;
+    margin: 37px auto;
+}
+
+.card h2{
+     
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+ footer{
+    font-family: 'Lato', sans-serif;
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+
+ }
